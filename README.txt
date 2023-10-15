@@ -1,1 +1,1 @@
-https://github.com/SogAsh/ono-tebe-nado
+https://github.com/SogAsh/ono-tebe-nado.git
