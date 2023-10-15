@@ -1,1 +1,33 @@
-/* место для вашего кода */
+body {
+    background: #7a7a7a;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header {
+    width: 1440px;
+    margin: auto;
+    background: #efebeb;
+    display: grid;
+    padding: 92px 49px 96px 51px;
+    grid-template-columns: 338px 148px 240px;
+}
+.header__menu-list {
+    display: flex;
+    column-gap: 32px;
+    margin-right: 209px;
+}
+.header__menu-item {
+
+}
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+    margin-right: 355px;
+}
+.header__logo-image {
+    width: 100%;
+}
