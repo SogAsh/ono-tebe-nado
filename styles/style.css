@@ -12,10 +12,11 @@ body {
     display: flex;
     padding: 92px 49px 96px 51px;
     margin: auto;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
 }
 .header__menu {
+    margin-right: 209px;
 }
 .header__links-list {
     display: flex;
@@ -35,6 +36,7 @@ body {
 }
 .header__logo {
     display: block;
+    margin-right: 355px;
 }
 .header__logo-image {
     width: 148px;
@@ -91,8 +93,6 @@ body {
     text-align: center;
     line-height: 1;
     margin: 20px 0;
-    /*padding-right: 60px;*/
-    width: 1280px;
 }
 .aligned-text_right {
     text-align: right;
