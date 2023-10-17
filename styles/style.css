@@ -13,7 +13,7 @@ body {
     display: flex;
     /*justify-content: space-between;*/
     align-items: center;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 293px;
     margin: auto;
     padding: 92px 49px 96px 51px;
@@ -75,7 +75,7 @@ body {
 .cover {
     position: relative;
     z-index: -1;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 757px;
     margin: auto;
     background: url("/images/cover.jpg") no-repeat center;
@@ -151,7 +151,7 @@ body {
 }
 
 .lots {
-    width: 1440px;
+    /*width: 1440px;*/
     height: 939px;
     margin: auto;
     padding: 180px 50px 182px;
@@ -262,7 +262,7 @@ body {
     grid-template-areas: "about__logo about__title"
                             ". about__text";
     gap: 8px 25px;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 667px;
     margin: auto;
     /*background: #c79797;*/
@@ -305,7 +305,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 187px;
     margin: auto;
     /*background-color: #c9e7ba;*/
