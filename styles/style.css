@@ -7,6 +7,7 @@ body {
     /*background: #bbb7b7;*/
     background: #FFF;
 }
+
 .header {
     /*background: #c79797;*/
     display: flex;
@@ -17,48 +18,60 @@ body {
     margin: auto;
     padding: 92px 49px 96px 51px;
 }
+
 .header__menu {
     margin-right: 209px;
 }
+
 .header__links-list {
     display: flex;
     column-gap: 32px;
 }
+
 .header__links-list-item {
     text-underline-offset: 2px;
     text-underline-position: under;
     list-style-type: circle;
     /*margin: 0 0 0 12px;*/
 }
+
 .header__links-list-item_no-bullit {
     list-style: none;
 }
+
 .header__link_active {
     text-decoration: none;
 }
+
 .header__logo {
     display: block;
     margin-right: 355px;
 }
+
 .header__logo-image {
     width: 148px;
     height: 105px;
 }
+
 .header__contacts {
     line-height: 1.35;
     list-style: none;
 }
+
 .header__tel {
     border-bottom: 1px solid #000;
     text-decoration: none;
 }
+
 .header__email {
     border-bottom: 1px solid #000;
     text-decoration: none;
 }
+
 .header__address {
     font-style: normal;
 }
+
 .cover {
     position: relative;
     z-index: -1;
@@ -68,6 +81,7 @@ body {
     background: url("/images/cover.jpg") no-repeat center;
     background-size: cover;
 }
+
 .overlay {
     position: absolute;
     z-index: 0;
@@ -76,6 +90,7 @@ body {
     opacity: 0.6;
     background-color: #000;
 }
+
 .cover__title {
     position: absolute;
     z-index: 1;
@@ -86,28 +101,32 @@ body {
     letter-spacing: 30px;
     text-transform: uppercase;
 }
+
 .aligned-text {
     display: block;
     line-height: 1.15;
     letter-spacing: 30px;
 }
+
 .aligned-text_center {
     margin: 20px 0;
     line-height: 1;
     text-align: center;
 }
+
 .aligned-text_right {
     line-height: 1;
     text-align: right;
 }
+
 .letter-spacing-extended {
     letter-spacing: 60px;
 }
+
 .no-letter-spacing {
     letter-spacing: 0;
 }
-.cover__description {
-}
+
 .cover__description-text {
     position: absolute;
     padding-top: 667px;
@@ -118,6 +137,7 @@ body {
     text-transform: uppercase;
     word-spacing: 17px;
 }
+
 .bet-button {
     position: absolute;
     margin-top: 655px;
@@ -129,6 +149,7 @@ body {
     text-transform: uppercase;
     background-color: transparent;
 }
+
 .lots {
     width: 1440px;
     height: 939px;
@@ -136,6 +157,7 @@ body {
     padding: 180px 50px 182px;
     /*background-color: #fffdfd;*/
 }
+
 .lots__heading {
     padding-bottom: 27px;
     padding-left: 40px;
@@ -144,19 +166,23 @@ body {
     line-height: normal;
     text-transform: uppercase;
 }
+
 .lots__card-list {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
+
 .lots__card-list-item {
     position: relative;
     width: 430px;
     height: 450px;
 }
+
 .card {
     display: flex;
 }
+
 .card_type_film {
     z-index: -1;
     /*position: relative;*/
@@ -166,6 +192,7 @@ body {
     background: url("/images/card-lot-01.jpg") no-repeat center;
     background-size: cover;
 }
+
 .card_type_book {
     z-index: -1;
     /*position: relative;*/
@@ -175,6 +202,7 @@ body {
     background: url("/images/card-lot-02.jpg") no-repeat center;
     background-size: cover;
 }
+
 .card_type_picture {
     z-index: -1;
     /*position: relative;*/
@@ -184,6 +212,7 @@ body {
     background: url("/images/card-lot-03.jpg") no-repeat center;
     background-size: cover;
 }
+
 .card__title {
     position: absolute;
     padding-top: 50px;
@@ -204,15 +233,19 @@ body {
     font-size: 20px;
     line-height: 1.2;
 }
+
 .card_type_film .card__text {
     padding-top: 304px;
 }
+
 .card_type_book .card__text {
     padding-top: 160px;
 }
+
 .card_type_picture .card__text {
     padding-top: 208px;
 }
+
 .lots__look-more-link {
     padding-top: 30px;
     padding-left: 40px;
@@ -221,6 +254,7 @@ body {
     text-underline-offset: 1px;
     text-underline-position: under;
 }
+
 .about {
     display: grid;
     grid-template-columns: 430px 1fr;
@@ -234,6 +268,7 @@ body {
     /*background: #c79797;*/
     padding: 0 50px 180px;
 }
+
 .about__logo {
     display: grid;
     grid-area: about__logo;
@@ -242,29 +277,32 @@ body {
     height: 240px;
     border-radius: 120px;
     background-color: #000;
-
 }
+
 .about__logo-image {
     justify-self: center;
     align-self: center;
     width: 148px;
     height: 114px;
 }
+
 .about__title {
     grid-area: about__title;
     align-self: center;
     font-size: 40px;
     text-transform: uppercase;
 }
+
 .about__text {
     grid-area: about__text;
     font-size: 20px;
 }
+
 .about__text-wp {
     padding-bottom: 25px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     width: 1440px;
@@ -273,21 +311,23 @@ body {
     /*background-color: #c9e7ba;*/
     padding: 0 50px 90px;
 }
-.footer__menu{
+
+.footer__menu {
     text-align: center;
 }
+
 .footer__menu-list {
     list-style: none;
 }
+
 .footer__social-list {
     display: flex;
     justify-content: space-between;
     width: 240px;
     list-style: none;
 }
+
 .footer__social-icon {
     width: 48px;
     height: 48px;
 }
-
-
