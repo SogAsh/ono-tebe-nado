@@ -1,3 +1,6 @@
+* {
+    outline: 1px solid red;
+}
 body {
     color: #000;
     font-weight: 400;
@@ -11,16 +14,17 @@ body {
 .header {
     /*background: #c79797;*/
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
     /*width: 1440px;*/
+    width: 100%;
     height: 293px;
     margin: auto;
     padding: 92px 49px 96px 51px;
 }
 
 .header__menu {
-    margin-right: 209px;
+    /*margin-right: 209px;*/
 }
 
 .header__links-list {
@@ -45,7 +49,7 @@ body {
 
 .header__logo {
     display: block;
-    margin-right: 355px;
+    /*margin-right: 355px;*/
 }
 
 .header__logo-image {
@@ -74,8 +78,9 @@ body {
 
 .cover {
     position: relative;
-    z-index: -1;
+    /*z-index: 1;*/
     /*width: 1440px;*/
+    width: 100%;
     height: 757px;
     margin: auto;
     background: url("/images/cover.jpg") no-repeat center;
@@ -84,7 +89,7 @@ body {
 
 .overlay {
     position: absolute;
-    z-index: 0;
+    /*z-index: 0;*/
     width: 100%;
     height: 100%;
     opacity: 0.6;
@@ -92,8 +97,9 @@ body {
 }
 
 .cover__title {
+    /*position: absolute;*/
     position: absolute;
-    z-index: 1;
+    /*z-index: 1;*/
     width: 100%;
     padding: 165px 50px 237px;
     color: #FFF;
@@ -126,32 +132,51 @@ body {
 .no-letter-spacing {
     letter-spacing: 0;
 }
-
+.cover__description {
+    /*position: absolute;*/
+    position: relative;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    /*align-content: end;*/
+    padding-top: 655px;
+    justify-content: end;
+}
 .cover__description-text {
-    position: absolute;
-    padding-top: 667px;
-    padding-left: 422px;
+    /*position: absolute;*/
+    /*padding-top: 667px;*/
+    /*padding-left: 422px;*/
     color: #FFF;
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
     word-spacing: 17px;
+    /*margin-right: 78px;*/
+    /*margin-left: auto;*/
+    align-self: center;
+    padding-right: 78px;
+
 }
 
 .bet-button {
-    position: absolute;
-    margin-top: 655px;
-    margin-left: 1133px;
+    /*position: absolute;*/
+    /*margin-top: 655px;*/
+    /*margin-left: 1133px;*/
     border: 1px solid #FFF;
     padding: 12px 32px;
     color: #FFF;
     font-size: 22px;
     text-transform: uppercase;
     background-color: transparent;
+    /*margin-left: auto;*/
+    /*margin-top: auto;*/
+
+
 }
 
 .lots {
     /*width: 1440px;*/
+    width: 100%;
     height: 939px;
     margin: auto;
     padding: 180px 50px 182px;
@@ -263,6 +288,7 @@ body {
                             ". about__text";
     gap: 8px 25px;
     /*width: 1440px;*/
+    width: 100%;
     height: 667px;
     margin: auto;
     /*background: #c79797;*/
@@ -306,6 +332,7 @@ body {
     display: flex;
     justify-content: space-between;
     /*width: 1440px;*/
+    width: 100%;
     height: 187px;
     margin: auto;
     /*background-color: #c9e7ba;*/
