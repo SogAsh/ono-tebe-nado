@@ -88,11 +88,12 @@ body {
     margin: auto;
     background: url("/images/cover.jpg") no-repeat center;
     background-size: cover;
+    z-index: -1;
 }
 
 .overlay {
     position: absolute;
-    /*z-index: 0;*/
+    z-index: 0;
     width: 100%;
     height: 100%;
     opacity: 0.6;
@@ -100,9 +101,8 @@ body {
 }
 
 .cover__title {
-    /*position: absolute;*/
     position: absolute;
-    /*z-index: 1;*/
+    z-index: 1;
     width: 100%;
     padding: 165px 50px 237px;
     color: #FFF;
@@ -144,6 +144,7 @@ body {
     /*align-content: end;*/
     padding-top: 655px;
     justify-content: end;
+    z-index: 1;
 }
 .cover__description-text {
     /*position: absolute;*/
