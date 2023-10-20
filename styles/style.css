@@ -49,22 +49,22 @@ body {
 .header__address {
     display: flex;
     flex-direction: column;
-    line-height: 1.35;
     justify-self: end;
-    font-style: normal;
     max-width: 240px;
+    font-style: normal;
+    line-height: 1.35;
 }
 
 .header__tel {
+    align-self: flex-start;
     border-bottom: 1px solid #000;
     text-decoration: none;
-    align-self: flex-start;
 }
 
 .header__email {
+    align-self: flex-start;
     border-bottom: 1px solid #000;
     text-decoration: none;
-    align-self: flex-start;
 }
 
 .cover {
@@ -158,8 +158,8 @@ body {
 .lots__card-list {
     display: flex;
     justify-content: space-between;
-    list-style: none;
     margin-bottom: 30px;
+    list-style: none;
 }
 
 .lots__card-list-item {
@@ -190,13 +190,13 @@ body {
 
 .card__title {
     position: absolute;
+    max-width: 350px;
     margin: 50px 40px 0;
     color: #FFF;
     font-size: 22px;
     line-height: 1.2;
     text-decoration-line: underline;
     text-transform: uppercase;
-    max-width: 350px;
 }
 
 .card__text {
@@ -259,11 +259,11 @@ body {
 }
 
 .about__text {
-    grid-area: about__text;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
+    grid-area: about__text;
     gap: 25px;
+    font-size: 20px;
 }
 
 .footer {
@@ -283,8 +283,8 @@ body {
 .footer__social-list {
     display: flex;
     column-gap: 48px;
-    list-style: none;
     max-width: 100%;
+    list-style: none;
 }
 
 .footer__social-link {
