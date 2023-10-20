@@ -189,6 +189,7 @@ body {
 }
 
 .card__title {
+  width: 100%;
   position: absolute;
   padding: 50px 40px 0;
   color: #fff;
