@@ -45,27 +45,25 @@ body {
     width: 148px;
 }
 
-.address {
-    justify-self: end;
-}
-
-.header__contacts {
+.header__address {
+    display: flex;
+    flex-direction: column;
     line-height: 1.35;
-    list-style: none;
+    justify-self: end;
+    font-style: normal;
+    max-width: 240px;
 }
 
 .header__tel {
     border-bottom: 1px solid #000;
     text-decoration: none;
+    align-self: flex-start;
 }
 
 .header__email {
     border-bottom: 1px solid #000;
     text-decoration: none;
-}
-
-.header__address {
-    font-style: normal;
+    align-self: flex-start;
 }
 
 .cover {
@@ -160,6 +158,7 @@ body {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    margin-bottom: 30px;
 }
 
 .lots__card-list-item {
@@ -190,13 +189,13 @@ body {
 
 .card__title {
     position: absolute;
-    padding-top: 50px;
-    padding-left: 40px;
+    margin: 50px 40px 0;
     color: #FFF;
     font-size: 22px;
     line-height: 1.2;
     text-decoration-line: underline;
     text-transform: uppercase;
+    max-width: 350px;
 }
 
 .card__text {
@@ -220,7 +219,6 @@ body {
 }
 
 .lots__look-more-link {
-    padding-top: 30px;
     padding-left: 40px;
     font-size: 20px;
     text-underline-offset: 1px;
@@ -262,10 +260,9 @@ body {
 .about__text {
     grid-area: about__text;
     font-size: 20px;
-}
-
-.about__text-wp {
-    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .footer {
@@ -285,8 +282,8 @@ body {
 .footer__social-list {
     display: flex;
     column-gap: 48px;
-    max-width: 240px;
     list-style: none;
+    max-width: 100%;
 }
 
 .footer__social-link {
