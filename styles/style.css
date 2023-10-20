@@ -190,8 +190,7 @@ body {
 
 .card__title {
     position: absolute;
-    max-width: 350px;
-    margin: 50px 40px 0;
+    padding: 50px 40px 0;
     color: #FFF;
     font-size: 22px;
     line-height: 1.2;
