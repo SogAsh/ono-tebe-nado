@@ -46,13 +46,17 @@ body {
   height: 105px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
   justify-self: end;
   max-width: 240px;
   font-style: normal;
   line-height: 1.35;
+}
+
+.header__address {
+  justify-self: end;
 }
 
 .header__tel {
