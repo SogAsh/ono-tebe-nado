@@ -194,7 +194,7 @@ body {
 .card__title {
   width: 100%;
   position: absolute;
-  padding: 50px 40px 0;
+  padding-top: 50px;
   color: #fff;
   font-size: 22px;
   line-height: 1.2;
