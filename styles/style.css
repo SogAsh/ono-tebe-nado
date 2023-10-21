@@ -192,12 +192,8 @@ body {
 }
 
 .card__title {
-  /*max-width: 350px;*/
   position: absolute;
-  padding-top: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
-  /*padding: 50px 40px 0;*/
+  padding: 50px 40px 0;
   color: #fff;
   font-size: 22px;
   line-height: 1.2;
