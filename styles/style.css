@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   max-width: 1440px;
   margin: auto;
   color: #000;
@@ -11,6 +10,7 @@ body {
 }
 
 .header {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -72,6 +72,7 @@ body {
 }
 
 .cover {
+  width: 100%;
   position: relative;
   background: url("../images/cover.jpg") no-repeat center;
   background-size: cover;
@@ -149,6 +150,7 @@ body {
 }
 
 .lots {
+  width: 100%;
   padding: 180px 50px 182px;
 }
 
@@ -230,6 +232,7 @@ body {
 }
 
 .about {
+  width: 100%;
   display: grid;
   grid-template-columns: 430px 1fr;
   grid-template-rows: repeat(2, 240px);
@@ -271,6 +274,7 @@ body {
 }
 
 .footer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 0 50px 90px;
