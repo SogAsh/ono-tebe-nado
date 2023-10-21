@@ -192,6 +192,7 @@ body {
 }
 
 .card__title {
+  max-width: 430px;
   position: absolute;
   padding: 50px 40px 0;
   color: #fff;
